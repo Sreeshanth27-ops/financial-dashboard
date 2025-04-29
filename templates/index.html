@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Metrics</title>
+    </head>
+    <body>
+        <h1>Portfolio Metrics Calculator</h1>
+
+        <form id="portfolioForm">
+            <label for="tickers">Tickers (comma-seperated): </label><br>
+            <input type="text" id="tickers" name="tickers" placeholder="AAPL,MSFT,GOOGL"><br><br>
+
+            <label for="weights">Weights (comma-seperated): </label><br>
+            <input type="text" id="weights" name="weights" placeholder="0.4,0.3,0.3"><br>
+
+            <button type="submit">Calculate</button>
+        </form>
+
+        <h2>Result: </h2>
+        <pre id="result"></pre>
+
+        <script src="/static/script.js"></script>
+    </body>
+</html>
